@@ -27,6 +27,17 @@ width: 30%;
 }
 
 .top {
+  background-color: white;
+}
+
+/*h2 {
+  border-top: 10px solid black;
+}*/
+
+.top {
   border: 1px solid black;
+  border-top: 10px solid black;
   height: 300px;
+  margin-top: 20px;
+  width: 80%;
 }
