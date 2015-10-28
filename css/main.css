@@ -25,3 +25,8 @@ text-align: right;
 text-transform: uppercase;
 width: 30%;
 }
+
+.top {
+  border: 1px solid black;
+  height: 300px;
+}
