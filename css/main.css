@@ -29,7 +29,7 @@ h2 {
 
 main {
   margin: 0 auto; /* center main content container in page */
-  width: 960px;
+  width: 1000px;
 }
 
 header {
@@ -67,7 +67,7 @@ width: 30%;
 
 aside {
   float: right;
-  width: 15%;
+  width: 150px;
 }
 
 .left {
@@ -78,7 +78,7 @@ aside {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .container {
-  width: 83%;
+  width: 830px;
 }
 
 .container:after {
@@ -97,7 +97,7 @@ aside {
 }
 
 .col-one-half {
-  width: 48.7%;
+  width: 405px;
 }
 
 .row-pad {
