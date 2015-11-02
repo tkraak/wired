@@ -32,8 +32,28 @@ h3 {
   margin: .5em 0;
 }
 
+h4 {
+  font-size: 1em;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 p {
   font-size: .8em;
+}
+
+a {
+    color: darkgray;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+a::after {
+  content: "";
+  display: block;
+  border-bottom: 4px solid #9be;
+  margin-top: -3px; /* move border up to blend in with text */
 }
 
 main {
@@ -87,8 +107,93 @@ width: 30%;
 
 aside {
   float: right;
+  font-size: .7em;
+  font-weight: bolder;
   width: 150px;
 }
+
+aside span {
+  display: block;
+}
+
+aside h4:first-child::after {
+  border-bottom: 1px solid black;
+  content: "";
+  display: block;
+  padding-top: 18px;
+  margin: 0 auto;
+  width: 120px;
+}
+
+dt {
+  margin-top: 20px;
+}
+
+.fa {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.fa-twitter {
+  color: #00aced;
+}
+
+.fa-instagram::before {
+  border-top: 1px solid black;
+  content: "\f16d";
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 120px;
+}
+
+.fa-instagram {
+  color: #125688;
+  margin-top: 20px;
+}
+
+.fa-wikipedia-w {
+  display: flex;
+  justify-content: center;
+}
+
+dl {
+  text-align: center;
+}
+
+dd {
+  display: -webkit-inline-box; /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-inline-flexbox; /* TWEENER - IE 10 */
+  display: -webkit-inline-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+  display: inline-flex; /* NEW, Spec - Firefox, Chrome, Opera */
+  margin: 0;
+}
+
+aside footer::before {
+  border-top: 1px solid black;
+  content: "";
+  display: block;
+  margin: 20px auto 0;
+  padding-bottom: 35px;
+  width: 120px;
+}
+
+aside footer {
+  text-align: center;
+}
+
+aside footer h4 {
+  margin-bottom: 0;
+}
+
+aside footer a::after {
+  content: "";
+  display: block;
+  border-bottom: 4px solid #9be;
+  margin: -5px auto 20px auto;
+  width: 31px;
+}
+
 
 .left {
   margin-right: 20px;
